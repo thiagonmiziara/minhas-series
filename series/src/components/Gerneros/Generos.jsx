@@ -37,7 +37,7 @@ const Generos = () => {
       </tr>
     );
   };
-  
+
   if (data.length === 0) {
     return (
       <div className="container">
@@ -53,7 +53,7 @@ const Generos = () => {
     <div className="container">
       <h1> Genêros </h1>
       <div>
-        <Link to="generos/novo" className="btn btn-primary">
+        <Link to={"/generos/novo"} className="btn btn-primary">
           Novo Genêro
         </Link>
       </div>
