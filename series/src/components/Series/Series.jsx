@@ -31,7 +31,7 @@ const Series = () => {
             Remover
           </button>
           <Link to={"/series/" + record.id} className="btn btn-warning">
-            Editar
+            Info
           </Link>
         </td>
       </tr>
